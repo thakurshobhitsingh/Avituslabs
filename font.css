@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    /* src: url("fonts/relative/relative-book-pro.eot"); IE9 Compat Modes */
+    src: url("fonts/satoshi/Satoshi-Medium.eot"); /* IE9 Compat Modes */
+    src:
+      local(""),
+      url("fonts/satoshi/Satoshi-Medium.eot?#iefix") format("embedded-opentype"),
+      /* IE6-IE8 */ url("fonts/satoshi/Satoshi-Medium.woff2") format("woff2"),
+      /* Super Modern Browsers */ url("fonts/satoshi/Satoshi-Medium.woff") format("woff"),
+      /* Modern Browsers */ url("fonts/satoshi/Satoshi-Medium.ttf") format("truetype"); /* Safari, Android, iOS */
+  }
+  
+  @font-face {
+    font-family: "SatoshiBold";
+    font-style: normal;
+    font-weight: 700;
+    /* src: url("fonts/relative/relative-book-pro.eot"); IE9 Compat Modes */
+    src: url("fonts/satoshi/Satoshi-Bold.eot"); /* IE9 Compat Modes */
+    src:
+      local(""),
+      url("fonts/satoshi/Satoshi-Bold.eot?#iefix") format("embedded-opentype"),
+      /* IE6-IE8 */ url("fonts/satoshi/Satoshi-Bold.woff2") format("woff2"),
+      /* Super Modern Browsers */ url("fonts/satoshi/Satoshi-Bold.woff") format("woff"),
+      /* Modern Browsers */ url("fonts/satoshi/Satoshi-Bold.ttf") format("truetype"); /* Safari, Android, iOS */
+  }
+  
+  
+  /* for certain components like inputs, don't overwrite the number font */
+  @font-face {
+    font-family: "SatoshiNumber";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/satoshi/Satoshi-Variable.eot"); /* IE9 Compat Modes */
+    src:
+      local(""),
+      url("fonts/satoshi/Satoshi-Variable.eot?#iefix") format("embedded-opentype"),
+      /* IE6-IE8 */ url("fonts/satoshi/Satoshi-Variable.woff2") format("woff2"),
+      /* Super Modern Browsers */ url("fonts/satoshi/Satoshi-Variable.woff") format("woff"),
+      /* Modern Browsers */ url("fonts/satoshi/Satoshi-Variable.ttf") format("truetype"); /* Safari, Android, iOS */
+  }
+  

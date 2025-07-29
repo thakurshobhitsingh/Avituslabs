@@ -1,0 +1,36 @@
+@keyframes shimmerFlow {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+  
+  .animate-shimmerBackground {
+    position: relative;
+    background-color: #FFD013; /* Base background */
+    overflow: hidden;
+    z-index: 0;
+  }
+  
+  .animate-shimmerBackground::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(
+      270deg,
+      transparent,
+      #FF9000,
+      transparent
+    );
+    background-size: 200% 100%;
+    animation: shimmerFlow 3s linear infinite;
+    z-index: 1;
+    opacity: 0.6;
+    pointer-events: none;
+  }
+  
